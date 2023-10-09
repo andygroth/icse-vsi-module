@@ -1,3 +1,3 @@
 provider "ibm" {
-  region = "eu-gb"
+  region = "eu-de"
 }
