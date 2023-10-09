@@ -8,6 +8,7 @@ resource "ibm_is_instance" "vsi" {
   profile                          = var.profile
   resource_group                   = var.resource_group_id
   vpc                              = var.vpc_id
+  region                           = var.region
   zone                             = var.zone
   user_data                        = var.user_data
   keys                             = var.ssh_key_ids
