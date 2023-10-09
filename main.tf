@@ -1,11 +1,6 @@
 ##############################################################################
 # Create Virtual Server Deployments
 ##############################################################################
-# provider block required with Schematics to set VPC region
-provider "ibm" {
-  region = var.region
-  #ibmcloud_api_key = var.ibmcloud_api_key
-}
 
 resource "ibm_is_instance" "vsi" {
   name                             = "${var.prefix}-${var.name}"
