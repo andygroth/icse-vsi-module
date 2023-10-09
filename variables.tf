@@ -25,11 +25,7 @@ variable "zone" {
 }
 
 ##############################################################################
-variable "region" {
-  description = "region where the VSI and Block Storage will be provisioned"
-  type        = string
-  default     = eu-de
-}
+
 ##############################################################################
 # VPC Variables
 ##############################################################################
